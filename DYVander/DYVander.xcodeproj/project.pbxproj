@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B2E87F443B7C3C6F730C4E7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A187BDCFD90FD98810D7B4 /* libPods.a */; };
+		89C35DB11C9A494F005B7FA7 /* DYVanderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C35DB01C9A494F005B7FA7 /* DYVanderTests.m */; };
+		89C35DBC1C9A494F005B7FA7 /* DYVanderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C35DBB1C9A494F005B7FA7 /* DYVanderUITests.m */; };
+		89C35DFA1C9A4BE4005B7FA7 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C35DCF1C9A4BE4005B7FA7 /* BaseViewController.m */; };
+		89C35E0B1C9A4C8B005B7FA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89C35E041C9A4C8B005B7FA7 /* Assets.xcassets */; };
+		89C35E0C1C9A4C8B005B7FA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89C35E061C9A4C8B005B7FA7 /* LaunchScreen.storyboard */; };
+		89C35E0D1C9A4C8B005B7FA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89C35E081C9A4C8B005B7FA7 /* Main.storyboard */; };
+		89C35E0E1C9A4C8B005B7FA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C35E0A1C9A4C8B005B7FA7 /* main.m */; };
+		89C35E141C9A4CBA005B7FA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C35E111C9A4CBA005B7FA7 /* AppDelegate.m */; };
+		89C35E151C9A4CBA005B7FA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C35E131C9A4CBA005B7FA7 /* ViewController.m */; };
+		89C35E171C9A4CC6005B7FA7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89C35E161C9A4CC6005B7FA7 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89C35DAD1C9A494F005B7FA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89C35D8B1C9A494F005B7FA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89C35D921C9A494F005B7FA7;
+			remoteInfo = DYVander;
+		};
+		89C35DB81C9A494F005B7FA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89C35D8B1C9A494F005B7FA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89C35D921C9A494F005B7FA7;
+			remoteInfo = DYVander;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13CB8C924774349E2EA0419E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		89C35D931C9A494F005B7FA7 /* DYVander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYVander.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89C35DAC1C9A494F005B7FA7 /* DYVanderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYVanderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89C35DB01C9A494F005B7FA7 /* DYVanderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYVanderTests.m; sourceTree = "<group>"; };
+		89C35DB21C9A494F005B7FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89C35DB71C9A494F005B7FA7 /* DYVanderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYVanderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89C35DBB1C9A494F005B7FA7 /* DYVanderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYVanderUITests.m; sourceTree = "<group>"; };
+		89C35DBD1C9A494F005B7FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89C35DCE1C9A4BE4005B7FA7 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		89C35DCF1C9A4BE4005B7FA7 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		89C35E041C9A4C8B005B7FA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89C35E071C9A4C8B005B7FA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C35E091C9A4C8B005B7FA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		89C35E0A1C9A4C8B005B7FA7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89C35E0F1C9A4C9E005B7FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89C35E101C9A4CBA005B7FA7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		89C35E111C9A4CBA005B7FA7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		89C35E121C9A4CBA005B7FA7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		89C35E131C9A4CBA005B7FA7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		89C35E161C9A4CC6005B7FA7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C1A187BDCFD90FD98810D7B4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDFD229E7D0EA45635ED7B61 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89C35D901C9A494F005B7FA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B2E87F443B7C3C6F730C4E7 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89C35DA91C9A494F005B7FA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89C35DB41C9A494F005B7FA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		381467802A7595291FC4F35B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1A187BDCFD90FD98810D7B4 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89C35D8A1C9A494F005B7FA7 = {
+			isa = PBXGroup;
+			children = (
+				89C35E161C9A4CC6005B7FA7 /* Default-568h@2x.png */,
+				89C35D951C9A494F005B7FA7 /* DYVander */,
+				89C35DAF1C9A494F005B7FA7 /* DYVanderTests */,
+				89C35DBA1C9A494F005B7FA7 /* DYVanderUITests */,
+				89C35D941C9A494F005B7FA7 /* Products */,
+				C56F5C4757E87848FA3FB7EF /* Pods */,
+				381467802A7595291FC4F35B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		89C35D941C9A494F005B7FA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89C35D931C9A494F005B7FA7 /* DYVander.app */,
+				89C35DAC1C9A494F005B7FA7 /* DYVanderTests.xctest */,
+				89C35DB71C9A494F005B7FA7 /* DYVanderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89C35D951C9A494F005B7FA7 /* DYVander */ = {
+			isa = PBXGroup;
+			children = (
+				89C35DC91C9A4BE4005B7FA7 /* Class */,
+				89C35DF31C9A4BE4005B7FA7 /* Main */,
+				89C35DF41C9A4BE4005B7FA7 /* Resources */,
+				89C35DF91C9A4BE4005B7FA7 /* Supporting Files */,
+			);
+			path = DYVander;
+			sourceTree = "<group>";
+		};
+		89C35DAF1C9A494F005B7FA7 /* DYVanderTests */ = {
+			isa = PBXGroup;
+			children = (
+				89C35DB01C9A494F005B7FA7 /* DYVanderTests.m */,
+				89C35DB21C9A494F005B7FA7 /* Info.plist */,
+			);
+			path = DYVanderTests;
+			sourceTree = "<group>";
+		};
+		89C35DBA1C9A494F005B7FA7 /* DYVanderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				89C35DBB1C9A494F005B7FA7 /* DYVanderUITests.m */,
+				89C35DBD1C9A494F005B7FA7 /* Info.plist */,
+			);
+			path = DYVanderUITests;
+			sourceTree = "<group>";
+		};
+		89C35DC91C9A4BE4005B7FA7 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				89C35DCA1C9A4BE4005B7FA7 /* Cateqories */,
+				89C35DCB1C9A4BE4005B7FA7 /* Config */,
+				89C35DCC1C9A4BE4005B7FA7 /* Controlls */,
+				89C35DD41C9A4BE4005B7FA7 /* Libs */,
+				89C35DD51C9A4BE4005B7FA7 /* Model */,
+				89C35DD61C9A4BE4005B7FA7 /* Tools */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		89C35DCA1C9A4BE4005B7FA7 /* Cateqories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cateqories;
+			sourceTree = "<group>";
+		};
+		89C35DCB1C9A4BE4005B7FA7 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		89C35DCC1C9A4BE4005B7FA7 /* Controlls */ = {
+			isa = PBXGroup;
+			children = (
+				89C35DCD1C9A4BE4005B7FA7 /* BaseViewController */,
+				89C35DD01C9A4BE4005B7FA7 /* First */,
+				89C35DD11C9A4BE4005B7FA7 /* Fourth */,
+				89C35DD21C9A4BE4005B7FA7 /* Second */,
+				89C35DD31C9A4BE4005B7FA7 /* Third */,
+			);
+			path = Controlls;
+			sourceTree = "<group>";
+		};
+		89C35DCD1C9A4BE4005B7FA7 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				89C35DCE1C9A4BE4005B7FA7 /* BaseViewController.h */,
+				89C35DCF1C9A4BE4005B7FA7 /* BaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		89C35DD01C9A4BE4005B7FA7 /* First */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		89C35DD11C9A4BE4005B7FA7 /* Fourth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fourth;
+			sourceTree = "<group>";
+		};
+		89C35DD21C9A4BE4005B7FA7 /* Second */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
+		89C35DD31C9A4BE4005B7FA7 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		89C35DD41C9A4BE4005B7FA7 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		89C35DD51C9A4BE4005B7FA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		89C35DD61C9A4BE4005B7FA7 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				89C35DD71C9A4BE4005B7FA7 /* Global */,
+				89C35DDA1C9A4BE4005B7FA7 /* Util */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		89C35DD71C9A4BE4005B7FA7 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		89C35DDA1C9A4BE4005B7FA7 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		89C35DF31C9A4BE4005B7FA7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				89C35E101C9A4CBA005B7FA7 /* AppDelegate.h */,
+				89C35E111C9A4CBA005B7FA7 /* AppDelegate.m */,
+				89C35E121C9A4CBA005B7FA7 /* ViewController.h */,
+				89C35E131C9A4CBA005B7FA7 /* ViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		89C35DF41C9A4BE4005B7FA7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				89C35DF51C9A4BE4005B7FA7 /* Audios */,
+				89C35DF61C9A4BE4005B7FA7 /* Images */,
+				89C35DF71C9A4BE4005B7FA7 /* Plists */,
+				89C35DF81C9A4BE4005B7FA7 /* Vedios */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		89C35DF51C9A4BE4005B7FA7 /* Audios */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Audios;
+			sourceTree = "<group>";
+		};
+		89C35DF61C9A4BE4005B7FA7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		89C35DF71C9A4BE4005B7FA7 /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Plists;
+			sourceTree = "<group>";
+		};
+		89C35DF81C9A4BE4005B7FA7 /* Vedios */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vedios;
+			sourceTree = "<group>";
+		};
+		89C35DF91C9A4BE4005B7FA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89C35E0F1C9A4C9E005B7FA7 /* Info.plist */,
+				89C35E041C9A4C8B005B7FA7 /* Assets.xcassets */,
+				89C35E051C9A4C8B005B7FA7 /* Base.lproj */,
+				89C35E0A1C9A4C8B005B7FA7 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89C35E051C9A4C8B005B7FA7 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				89C35E061C9A4C8B005B7FA7 /* LaunchScreen.storyboard */,
+				89C35E081C9A4C8B005B7FA7 /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		C56F5C4757E87848FA3FB7EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13CB8C924774349E2EA0419E /* Pods.debug.xcconfig */,
+				FDFD229E7D0EA45635ED7B61 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89C35D921C9A494F005B7FA7 /* DYVander */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89C35DC01C9A494F005B7FA7 /* Build configuration list for PBXNativeTarget "DYVander" */;
+			buildPhases = (
+				C275868E5D720C1BD6498D9D /* Check Pods Manifest.lock */,
+				89C35D8F1C9A494F005B7FA7 /* Sources */,
+				89C35D901C9A494F005B7FA7 /* Frameworks */,
+				89C35D911C9A494F005B7FA7 /* Resources */,
+				307E6E0CF70C5EBF88CCFE9C /* Embed Pods Frameworks */,
+				208F0DB7A29E06CF3033114A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DYVander;
+			productName = DYVander;
+			productReference = 89C35D931C9A494F005B7FA7 /* DYVander.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89C35DAB1C9A494F005B7FA7 /* DYVanderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89C35DC31C9A494F005B7FA7 /* Build configuration list for PBXNativeTarget "DYVanderTests" */;
+			buildPhases = (
+				89C35DA81C9A494F005B7FA7 /* Sources */,
+				89C35DA91C9A494F005B7FA7 /* Frameworks */,
+				89C35DAA1C9A494F005B7FA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89C35DAE1C9A494F005B7FA7 /* PBXTargetDependency */,
+			);
+			name = DYVanderTests;
+			productName = DYVanderTests;
+			productReference = 89C35DAC1C9A494F005B7FA7 /* DYVanderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		89C35DB61C9A494F005B7FA7 /* DYVanderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89C35DC61C9A494F005B7FA7 /* Build configuration list for PBXNativeTarget "DYVanderUITests" */;
+			buildPhases = (
+				89C35DB31C9A494F005B7FA7 /* Sources */,
+				89C35DB41C9A494F005B7FA7 /* Frameworks */,
+				89C35DB51C9A494F005B7FA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89C35DB91C9A494F005B7FA7 /* PBXTargetDependency */,
+			);
+			name = DYVanderUITests;
+			productName = DYVanderUITests;
+			productReference = 89C35DB71C9A494F005B7FA7 /* DYVanderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89C35D8B1C9A494F005B7FA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ludayang;
+				TargetAttributes = {
+					89C35D921C9A494F005B7FA7 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					89C35DAB1C9A494F005B7FA7 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 89C35D921C9A494F005B7FA7;
+					};
+					89C35DB61C9A494F005B7FA7 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 89C35D921C9A494F005B7FA7;
+					};
+				};
+			};
+			buildConfigurationList = 89C35D8E1C9A494F005B7FA7 /* Build configuration list for PBXProject "DYVander" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89C35D8A1C9A494F005B7FA7;
+			productRefGroup = 89C35D941C9A494F005B7FA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89C35D921C9A494F005B7FA7 /* DYVander */,
+				89C35DAB1C9A494F005B7FA7 /* DYVanderTests */,
+				89C35DB61C9A494F005B7FA7 /* DYVanderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89C35D911C9A494F005B7FA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89C35E0D1C9A4C8B005B7FA7 /* Main.storyboard in Resources */,
+				89C35E171C9A4CC6005B7FA7 /* Default-568h@2x.png in Resources */,
+				89C35E0B1C9A4C8B005B7FA7 /* Assets.xcassets in Resources */,
+				89C35E0C1C9A4C8B005B7FA7 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89C35DAA1C9A494F005B7FA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89C35DB51C9A494F005B7FA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		208F0DB7A29E06CF3033114A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		307E6E0CF70C5EBF88CCFE9C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C275868E5D720C1BD6498D9D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89C35D8F1C9A494F005B7FA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89C35DFA1C9A4BE4005B7FA7 /* BaseViewController.m in Sources */,
+				89C35E151C9A4CBA005B7FA7 /* ViewController.m in Sources */,
+				89C35E141C9A4CBA005B7FA7 /* AppDelegate.m in Sources */,
+				89C35E0E1C9A4C8B005B7FA7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89C35DA81C9A494F005B7FA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89C35DB11C9A494F005B7FA7 /* DYVanderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89C35DB31C9A494F005B7FA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89C35DBC1C9A494F005B7FA7 /* DYVanderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89C35DAE1C9A494F005B7FA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89C35D921C9A494F005B7FA7 /* DYVander */;
+			targetProxy = 89C35DAD1C9A494F005B7FA7 /* PBXContainerItemProxy */;
+		};
+		89C35DB91C9A494F005B7FA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89C35D921C9A494F005B7FA7 /* DYVander */;
+			targetProxy = 89C35DB81C9A494F005B7FA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89C35E061C9A4C8B005B7FA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89C35E071C9A4C8B005B7FA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		89C35E081C9A4C8B005B7FA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89C35E091C9A4C8B005B7FA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89C35DBE1C9A494F005B7FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		89C35DBF1C9A494F005B7FA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89C35DC11C9A494F005B7FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13CB8C924774349E2EA0419E /* Pods.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "$(SRCROOT)/DYVander/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ludayang.com.DYVander;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		89C35DC21C9A494F005B7FA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDFD229E7D0EA45635ED7B61 /* Pods.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "$(SRCROOT)/DYVander/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ludayang.com.DYVander;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		89C35DC41C9A494F005B7FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DYVanderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ludayang.com.DYVanderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DYVander.app/DYVander";
+			};
+			name = Debug;
+		};
+		89C35DC51C9A494F005B7FA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DYVanderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ludayang.com.DYVanderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DYVander.app/DYVander";
+			};
+			name = Release;
+		};
+		89C35DC71C9A494F005B7FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DYVanderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ludayang.com.DYVanderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DYVander;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		89C35DC81C9A494F005B7FA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DYVanderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ludayang.com.DYVanderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DYVander;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89C35D8E1C9A494F005B7FA7 /* Build configuration list for PBXProject "DYVander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89C35DBE1C9A494F005B7FA7 /* Debug */,
+				89C35DBF1C9A494F005B7FA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89C35DC01C9A494F005B7FA7 /* Build configuration list for PBXNativeTarget "DYVander" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89C35DC11C9A494F005B7FA7 /* Debug */,
+				89C35DC21C9A494F005B7FA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89C35DC31C9A494F005B7FA7 /* Build configuration list for PBXNativeTarget "DYVanderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89C35DC41C9A494F005B7FA7 /* Debug */,
+				89C35DC51C9A494F005B7FA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89C35DC61C9A494F005B7FA7 /* Build configuration list for PBXNativeTarget "DYVanderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89C35DC71C9A494F005B7FA7 /* Debug */,
+				89C35DC81C9A494F005B7FA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89C35D8B1C9A494F005B7FA7 /* Project object */;
+}

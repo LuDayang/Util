@@ -1,18 +1,18 @@
 //
-//  UtilDemoUITests.m
-//  UtilDemoUITests
+//  DYVanderUITests.m
+//  DYVanderUITests
 //
-//  Created by Lu on 15/12/18.
-//  Copyright © 2015年 Lu. All rights reserved.
+//  Created by 卢达洋 on 16/3/17.
+//  Copyright © 2016年 ludayang. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface UtilDemoUITests : XCTestCase
+@interface DYVanderUITests : XCTestCase
 
 @end
 
-@implementation UtilDemoUITests
+@implementation DYVanderUITests
 
 - (void)setUp {
     [super setUp];
