@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NSDate+DYExtension.h"
+#import "NSString+DYExtension.h"
+#import "UIView+DYExtension.h"
 
 @interface BaseViewController : UIViewController
 - (void)back;

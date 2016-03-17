@@ -26,6 +26,9 @@
 		89C35E2B1C9A5279005B7FA7 /* FourthController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89C35E291C9A5279005B7FA7 /* FourthController.xib */; };
 		89C35E2F1C9A5293005B7FA7 /* SecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C35E2D1C9A5293005B7FA7 /* SecondController.m */; };
 		89C35E301C9A5293005B7FA7 /* SecondController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89C35E2E1C9A5293005B7FA7 /* SecondController.xib */; };
+		89C35E341C9A5738005B7FA7 /* UIView+DYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C35E331C9A5738005B7FA7 /* UIView+DYExtension.m */; };
+		89C35E371C9A5775005B7FA7 /* NSString+DYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C35E361C9A5775005B7FA7 /* NSString+DYExtension.m */; };
+		89C35E3A1C9A5789005B7FA7 /* NSDate+DYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C35E391C9A5789005B7FA7 /* NSDate+DYExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +82,12 @@
 		89C35E2D1C9A5293005B7FA7 /* SecondController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondController.m; sourceTree = "<group>"; };
 		89C35E2E1C9A5293005B7FA7 /* SecondController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondController.xib; sourceTree = "<group>"; };
 		89C35E311C9A5326005B7FA7 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		89C35E321C9A5738005B7FA7 /* UIView+DYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DYExtension.h"; sourceTree = "<group>"; };
+		89C35E331C9A5738005B7FA7 /* UIView+DYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DYExtension.m"; sourceTree = "<group>"; };
+		89C35E351C9A5775005B7FA7 /* NSString+DYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DYExtension.h"; sourceTree = "<group>"; };
+		89C35E361C9A5775005B7FA7 /* NSString+DYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DYExtension.m"; sourceTree = "<group>"; };
+		89C35E381C9A5789005B7FA7 /* NSDate+DYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DYExtension.h"; sourceTree = "<group>"; };
+		89C35E391C9A5789005B7FA7 /* NSDate+DYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DYExtension.m"; sourceTree = "<group>"; };
 		C1A187BDCFD90FD98810D7B4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDFD229E7D0EA45635ED7B61 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -185,6 +194,12 @@
 		89C35DCA1C9A4BE4005B7FA7 /* Cateqories */ = {
 			isa = PBXGroup;
 			children = (
+				89C35E321C9A5738005B7FA7 /* UIView+DYExtension.h */,
+				89C35E331C9A5738005B7FA7 /* UIView+DYExtension.m */,
+				89C35E351C9A5775005B7FA7 /* NSString+DYExtension.h */,
+				89C35E361C9A5775005B7FA7 /* NSString+DYExtension.m */,
+				89C35E381C9A5789005B7FA7 /* NSDate+DYExtension.h */,
+				89C35E391C9A5789005B7FA7 /* NSDate+DYExtension.m */,
 			);
 			path = Cateqories;
 			sourceTree = "<group>";
@@ -560,12 +575,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89C35E371C9A5775005B7FA7 /* NSString+DYExtension.m in Sources */,
 				89C35E2A1C9A5279005B7FA7 /* FourthController.m in Sources */,
 				89C35E1B1C9A5235005B7FA7 /* FirstController.m in Sources */,
 				89C35DFA1C9A4BE4005B7FA7 /* BaseViewController.m in Sources */,
 				89C35E151C9A4CBA005B7FA7 /* ViewController.m in Sources */,
 				89C35E251C9A5264005B7FA7 /* ThirdController.m in Sources */,
+				89C35E341C9A5738005B7FA7 /* UIView+DYExtension.m in Sources */,
 				89C35E2F1C9A5293005B7FA7 /* SecondController.m in Sources */,
+				89C35E3A1C9A5789005B7FA7 /* NSDate+DYExtension.m in Sources */,
 				89C35E141C9A4CBA005B7FA7 /* AppDelegate.m in Sources */,
 				89C35E0E1C9A4C8B005B7FA7 /* main.m in Sources */,
 			);
