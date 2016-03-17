@@ -18,6 +18,14 @@
 		89C35E141C9A4CBA005B7FA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C35E111C9A4CBA005B7FA7 /* AppDelegate.m */; };
 		89C35E151C9A4CBA005B7FA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C35E131C9A4CBA005B7FA7 /* ViewController.m */; };
 		89C35E171C9A4CC6005B7FA7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89C35E161C9A4CC6005B7FA7 /* Default-568h@2x.png */; };
+		89C35E1B1C9A5235005B7FA7 /* FirstController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C35E191C9A5235005B7FA7 /* FirstController.m */; };
+		89C35E1C1C9A5235005B7FA7 /* FirstController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89C35E1A1C9A5235005B7FA7 /* FirstController.xib */; };
+		89C35E251C9A5264005B7FA7 /* ThirdController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C35E231C9A5264005B7FA7 /* ThirdController.m */; };
+		89C35E261C9A5264005B7FA7 /* ThirdController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89C35E241C9A5264005B7FA7 /* ThirdController.xib */; };
+		89C35E2A1C9A5279005B7FA7 /* FourthController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C35E281C9A5279005B7FA7 /* FourthController.m */; };
+		89C35E2B1C9A5279005B7FA7 /* FourthController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89C35E291C9A5279005B7FA7 /* FourthController.xib */; };
+		89C35E2F1C9A5293005B7FA7 /* SecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C35E2D1C9A5293005B7FA7 /* SecondController.m */; };
+		89C35E301C9A5293005B7FA7 /* SecondController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89C35E2E1C9A5293005B7FA7 /* SecondController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +66,19 @@
 		89C35E121C9A4CBA005B7FA7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		89C35E131C9A4CBA005B7FA7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		89C35E161C9A4CC6005B7FA7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		89C35E181C9A5235005B7FA7 /* FirstController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstController.h; sourceTree = "<group>"; };
+		89C35E191C9A5235005B7FA7 /* FirstController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstController.m; sourceTree = "<group>"; };
+		89C35E1A1C9A5235005B7FA7 /* FirstController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstController.xib; sourceTree = "<group>"; };
+		89C35E221C9A5264005B7FA7 /* ThirdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdController.h; sourceTree = "<group>"; };
+		89C35E231C9A5264005B7FA7 /* ThirdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdController.m; sourceTree = "<group>"; };
+		89C35E241C9A5264005B7FA7 /* ThirdController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdController.xib; sourceTree = "<group>"; };
+		89C35E271C9A5279005B7FA7 /* FourthController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthController.h; sourceTree = "<group>"; };
+		89C35E281C9A5279005B7FA7 /* FourthController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthController.m; sourceTree = "<group>"; };
+		89C35E291C9A5279005B7FA7 /* FourthController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourthController.xib; sourceTree = "<group>"; };
+		89C35E2C1C9A5293005B7FA7 /* SecondController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondController.h; sourceTree = "<group>"; };
+		89C35E2D1C9A5293005B7FA7 /* SecondController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondController.m; sourceTree = "<group>"; };
+		89C35E2E1C9A5293005B7FA7 /* SecondController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondController.xib; sourceTree = "<group>"; };
+		89C35E311C9A5326005B7FA7 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 		C1A187BDCFD90FD98810D7B4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDFD229E7D0EA45635ED7B61 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -171,6 +192,7 @@
 		89C35DCB1C9A4BE4005B7FA7 /* Config */ = {
 			isa = PBXGroup;
 			children = (
+				89C35E311C9A5326005B7FA7 /* Config.h */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -180,9 +202,9 @@
 			children = (
 				89C35DCD1C9A4BE4005B7FA7 /* BaseViewController */,
 				89C35DD01C9A4BE4005B7FA7 /* First */,
-				89C35DD11C9A4BE4005B7FA7 /* Fourth */,
 				89C35DD21C9A4BE4005B7FA7 /* Second */,
 				89C35DD31C9A4BE4005B7FA7 /* Third */,
+				89C35DD11C9A4BE4005B7FA7 /* Fourth */,
 			);
 			path = Controlls;
 			sourceTree = "<group>";
@@ -199,6 +221,9 @@
 		89C35DD01C9A4BE4005B7FA7 /* First */ = {
 			isa = PBXGroup;
 			children = (
+				89C35E181C9A5235005B7FA7 /* FirstController.h */,
+				89C35E191C9A5235005B7FA7 /* FirstController.m */,
+				89C35E1A1C9A5235005B7FA7 /* FirstController.xib */,
 			);
 			path = First;
 			sourceTree = "<group>";
@@ -206,6 +231,9 @@
 		89C35DD11C9A4BE4005B7FA7 /* Fourth */ = {
 			isa = PBXGroup;
 			children = (
+				89C35E271C9A5279005B7FA7 /* FourthController.h */,
+				89C35E281C9A5279005B7FA7 /* FourthController.m */,
+				89C35E291C9A5279005B7FA7 /* FourthController.xib */,
 			);
 			path = Fourth;
 			sourceTree = "<group>";
@@ -213,6 +241,9 @@
 		89C35DD21C9A4BE4005B7FA7 /* Second */ = {
 			isa = PBXGroup;
 			children = (
+				89C35E2C1C9A5293005B7FA7 /* SecondController.h */,
+				89C35E2D1C9A5293005B7FA7 /* SecondController.m */,
+				89C35E2E1C9A5293005B7FA7 /* SecondController.xib */,
 			);
 			path = Second;
 			sourceTree = "<group>";
@@ -220,6 +251,9 @@
 		89C35DD31C9A4BE4005B7FA7 /* Third */ = {
 			isa = PBXGroup;
 			children = (
+				89C35E221C9A5264005B7FA7 /* ThirdController.h */,
+				89C35E231C9A5264005B7FA7 /* ThirdController.m */,
+				89C35E241C9A5264005B7FA7 /* ThirdController.xib */,
 			);
 			path = Third;
 			sourceTree = "<group>";
@@ -447,7 +481,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				89C35E0D1C9A4C8B005B7FA7 /* Main.storyboard in Resources */,
+				89C35E2B1C9A5279005B7FA7 /* FourthController.xib in Resources */,
+				89C35E1C1C9A5235005B7FA7 /* FirstController.xib in Resources */,
+				89C35E261C9A5264005B7FA7 /* ThirdController.xib in Resources */,
 				89C35E171C9A4CC6005B7FA7 /* Default-568h@2x.png in Resources */,
+				89C35E301C9A5293005B7FA7 /* SecondController.xib in Resources */,
 				89C35E0B1C9A4C8B005B7FA7 /* Assets.xcassets in Resources */,
 				89C35E0C1C9A4C8B005B7FA7 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -522,8 +560,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89C35E2A1C9A5279005B7FA7 /* FourthController.m in Sources */,
+				89C35E1B1C9A5235005B7FA7 /* FirstController.m in Sources */,
 				89C35DFA1C9A4BE4005B7FA7 /* BaseViewController.m in Sources */,
 				89C35E151C9A4CBA005B7FA7 /* ViewController.m in Sources */,
+				89C35E251C9A5264005B7FA7 /* ThirdController.m in Sources */,
+				89C35E2F1C9A5293005B7FA7 /* SecondController.m in Sources */,
 				89C35E141C9A4CBA005B7FA7 /* AppDelegate.m in Sources */,
 				89C35E0E1C9A4C8B005B7FA7 /* main.m in Sources */,
 			);

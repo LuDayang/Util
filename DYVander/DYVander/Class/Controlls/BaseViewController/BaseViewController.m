@@ -29,18 +29,17 @@
 }
 
 #pragma mark - 设置BaseView样式
--(void)initBaseView{
-  self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:0.9647 green:0.9647 blue:0.9647 alpha:1.0];
+- (void)initBaseView {
+  self.navigationController.navigationBar.barTintColor =
+      [UIColor colorWithRed:0.9647 green:0.9647 blue:0.9647 alpha:1.0];
   [self.navigationController.navigationBar setTranslucent:NO];
   self.edgesForExtendedLayout = UIRectEdgeNone;
-
 }
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
+- (id)initWithNibName:(NSString *)nibNameOrNil
+               bundle:(NSBundle *)nibBundleOrNil {
   self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
   if (self) {
-
   }
   return self;
 }
