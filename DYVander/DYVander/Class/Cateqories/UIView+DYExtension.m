@@ -56,4 +56,16 @@
   self.layer.shadowRadius = 10.0;
   self.layer.masksToBounds = YES;
 }
+
+-(void)blurEffect{
+  [self blurEffectWithStyle:UIBlurEffectStyleLight Alpha:0.9];
+}
+
+-(void)blurEffectWithStyle:(UIBlurEffectStyle)style Alpha:(CGFloat)alpha{
+  UIBlurEffect *blur = [UIBlurEffect effectWithStyle:style];
+  UIVisualEffectView *effectview = [[UIVisualEffectView alloc] initWithEffect:blur];
+  effectview.frame = CGRectMake(0, 0, self.bounds.size.width,self.bounds.size.height);
+  effectview.alpha = alpha;
+  [self addSubview:effectview];
+}
 @end

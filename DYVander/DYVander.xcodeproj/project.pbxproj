@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7B2E87F443B7C3C6F730C4E7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A187BDCFD90FD98810D7B4 /* libPods.a */; };
+		8946F7151CA391A300DDF539 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 8946F7141CA391A300DDF539 /* UIImage+ImageEffects.m */; };
 		89C35DB11C9A494F005B7FA7 /* DYVanderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C35DB01C9A494F005B7FA7 /* DYVanderTests.m */; };
 		89C35DBC1C9A494F005B7FA7 /* DYVanderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C35DBB1C9A494F005B7FA7 /* DYVanderUITests.m */; };
 		89C35DFA1C9A4BE4005B7FA7 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C35DCF1C9A4BE4005B7FA7 /* BaseViewController.m */; };
@@ -50,6 +51,8 @@
 
 /* Begin PBXFileReference section */
 		13CB8C924774349E2EA0419E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		8946F7131CA391A300DDF539 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		8946F7141CA391A300DDF539 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		89C35D931C9A494F005B7FA7 /* DYVander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYVander.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C35DAC1C9A494F005B7FA7 /* DYVanderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DYVanderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C35DB01C9A494F005B7FA7 /* DYVanderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYVanderTests.m; sourceTree = "<group>"; };
@@ -194,6 +197,8 @@
 		89C35DCA1C9A4BE4005B7FA7 /* Cateqories */ = {
 			isa = PBXGroup;
 			children = (
+				8946F7131CA391A300DDF539 /* UIImage+ImageEffects.h */,
+				8946F7141CA391A300DDF539 /* UIImage+ImageEffects.m */,
 				89C35E321C9A5738005B7FA7 /* UIView+DYExtension.h */,
 				89C35E331C9A5738005B7FA7 /* UIView+DYExtension.m */,
 				89C35E351C9A5775005B7FA7 /* NSString+DYExtension.h */,
@@ -583,6 +588,7 @@
 				89C35E251C9A5264005B7FA7 /* ThirdController.m in Sources */,
 				89C35E341C9A5738005B7FA7 /* UIView+DYExtension.m in Sources */,
 				89C35E2F1C9A5293005B7FA7 /* SecondController.m in Sources */,
+				8946F7151CA391A300DDF539 /* UIImage+ImageEffects.m in Sources */,
 				89C35E3A1C9A5789005B7FA7 /* NSDate+DYExtension.m in Sources */,
 				89C35E141C9A4CBA005B7FA7 /* AppDelegate.m in Sources */,
 				89C35E0E1C9A4C8B005B7FA7 /* main.m in Sources */,

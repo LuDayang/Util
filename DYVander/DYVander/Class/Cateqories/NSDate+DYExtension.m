@@ -68,6 +68,7 @@
 +(NSString *)getCurrentDate:(NSString *)dateFormat
 {
   NSDateFormatter *fmt = [[NSDateFormatter alloc] init];
+//  [fmt setLocale:[[NSLocale alloc] initWithLocaleIdentifier:@"zh_Hans_CN"]];
   fmt.dateFormat = dateFormat;
   
   return [fmt stringFromDate:[NSDate date]];

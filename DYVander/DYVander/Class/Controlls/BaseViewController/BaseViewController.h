@@ -10,6 +10,8 @@
 #import "NSDate+DYExtension.h"
 #import "NSString+DYExtension.h"
 #import "UIView+DYExtension.h"
+#import "UIImage+ImageEffects.h"
+
 
 @interface BaseViewController : UIViewController
 - (void)back;
