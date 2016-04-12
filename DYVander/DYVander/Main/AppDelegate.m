@@ -7,12 +7,12 @@
 //
 
 #import "AppDelegate.h"
-#import "FirstController.h"
-#import "SecondController.h"
-#import "ThirdController.h"
-#import "FourthController.h"
+#import "Master.h"
+#import "LoginController.h"
+#import "Global.h"
+#import <BmobSDK/Bmob.h>
 
-
+#define kAppIdForBmob @"607436f399a06e22f409d23c9c87af7b"
 @interface AppDelegate ()
 
 @end
@@ -21,8 +21,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-  
-  [self createTabBar];
+  [Bmob registerWithAppKey:kAppIdForBmob];
+  NSString *loginState = [[Global sharedSingleton]getUserDefaultsWithKey:@"LoginState"];
+  if (![loginState isEqualToString:@"logout"]) {
+    LoginController *vc = [[LoginController alloc] initWithNibName:@"LoginController" bundle:nil];
+    UINavigationController *nc = [[UINavigationController alloc]initWithRootViewController:vc];
+    self.window.rootViewController = nc;
+  }else{
+    Master *vc = [[Master alloc] init];
+    self.window.rootViewController = vc;
+  }
   return YES;
 }
 
@@ -48,27 +56,6 @@
   // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 #pragma mark 私有方法
--(void)createTabBar{
-  FirstController *vc1 = [[FirstController alloc] initWithNibName:@"FirstController" bundle:nil];
-  UINavigationController *nc1 = [[UINavigationController alloc]initWithRootViewController:vc1];
-  nc1.tabBarItem.title=@"First";
-  
-  SecondController *vc2 = [[SecondController alloc] initWithNibName:@"SecondController" bundle:nil];
-  UINavigationController *nc2 = [[UINavigationController alloc]initWithRootViewController:vc2];
-  nc2.tabBarItem.title=@"Second";
-  
-  ThirdController *vc3 = [[ThirdController alloc] initWithNibName:@"ThirdController" bundle:nil];
-  UINavigationController *nc3 = [[UINavigationController alloc]initWithRootViewController:vc3];
-  nc3.tabBarItem.title=@"Third";
-  
-  FourthController *vc4 = [[FourthController alloc] initWithNibName:@"FourthController" bundle:nil];
-  UINavigationController *nc4 = [[UINavigationController alloc]initWithRootViewController:vc4];
-  nc4.tabBarItem.title=@"Fourth";
-  
-  UITabBarController *tbc = [[UITabBarController alloc] init];
-  tbc.viewControllers = @[nc1,nc2,nc3,nc4];
-  
-  self.window.rootViewController = tbc;
-}
+
 
 @end

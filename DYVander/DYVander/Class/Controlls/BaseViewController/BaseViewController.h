@@ -11,7 +11,7 @@
 #import "NSString+DYExtension.h"
 #import "UIView+DYExtension.h"
 #import "UIImage+ImageEffects.h"
-
+#import "Config.h"
 
 @interface BaseViewController : UIViewController
 - (void)back;
